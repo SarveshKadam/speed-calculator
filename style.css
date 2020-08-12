@@ -1,0 +1,84 @@
+/*
+    #619bdd
+    #1d4f88
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to right,#619bdd,#1d4f88) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.container{
+    border: 1px solid #1d4f88;
+    box-shadow: 1px 2px 10px 3px #73aff5;
+    background-color: #add1f5e7;
+    padding: 40px 20px;
+    
+} 
+
+.comp{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding : 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    width: 150px;
+}
+
+h1{
+    font-weight: 300;
+    text-align: center;
+}
+
+.input{
+    padding: 8px;
+    float: right;
+    margin-left: 20px;
+}
+
+input::placeholder{
+    text-align: right;
+}
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #1d4f88;
+    background-color: #fff;
+    color: #1d4f88;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    background-color: #619bdd;
+    color: #fff;
+}
+.btn:active{
+    transform: translateY(-1px);
+    background-color: #619bdd;
+    color: #fff;
+}
